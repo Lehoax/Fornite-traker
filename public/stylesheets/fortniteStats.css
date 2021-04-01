@@ -1,0 +1,40 @@
+#StatGlobal{
+    display: flex;
+}
+
+body{
+    background-color: #070719;
+    padding: 5px;
+}
+#top1img{
+    height: 64px;
+}
+.tilteStatImg{
+    text-align: center;
+    color: #c1b8d6;
+}
+.statbox{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#playerName{
+    color: #c1b8d6;
+}
+.lvlLogo{
+    border: 2px solid yellow;
+    width: 64px;
+    height: 64px;
+    transform: rotate(45deg);
+    background-color: yellow;
+    border-radius: 3px;
+
+}
+#nbLvl{
+    transform: rotate(-45deg);
+    text-align: center;
+    color: black;
+}

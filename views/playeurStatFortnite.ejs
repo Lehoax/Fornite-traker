@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= playerName %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/fortniteStats.css' />
+  </head>
+  <body>
+
+    <div id="StatGlobal">
+
+    <div id="player">
+      <img src="<%= avatarImg %>">
+      <h3 id="playerName"><%= playerName %></h3>
+    </div>
+
+    <div class="statbox">
+
+      <div class="lvl tilteStatImg">
+        <div class="lvlLogo">
+          <H1 id="nbLvl">Level</h1>
+        </div>
+
+       <h2><%= lvl %></h2>
+
+      </div>
+
+
+    <div id="time"  class="tilteStatImg">
+  <img src="/images/stopwatch.png" >      
+  <h2><%= AllplayTime %></h2>
+    </div>
+
+    <div id="top1"  class="tilteStatImg">
+    <img src="/images/top1.png" id="top1img">    
+    <h2><%= AllTop1 %> </h2>
+  </div>
+
+<div id="dead"  class="tilteStatImg">
+  <img src="/images/coffin.png" id="top1img">
+  <h2><%= Alldeaths %> </h2>
+
+</div>
+
+<div id="kill" class="tilteStatImg">
+  <img src="/images/knife.png">
+  <h2><%= AllKill %> </h2>
+</div>
+
+<div id="ratio" class="tilteStatImg">
+  <img src="/images/ratio.png"  class="tilteStatImg">
+  <h2><%= AllRatio %> </h2>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

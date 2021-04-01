@@ -1,0 +1,58 @@
+#statsForm{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+#inputPseudo{
+    width: 270px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: #9a93c9;
+    border: 2px solid #c1b8d6;
+    border-radius: 25px;
+    padding: 5px;
+    
+}
+#inputPseudo::placeholder{
+ color: #070719;
+ opacity: 1;
+    
+}
+#submitPseudo{
+    width: 270px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9a93c9;
+    border: none;
+    border-radius: 25px;
+}
+#submitPseudo:hover{
+    background-color: #c1b8d6;
+
+}
+body{
+    background-color: #070719;
+}
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+#containImg{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#buttonTXT{
+    margin: 0;
+}
+#imgFofo{
+    height: 150px;
+    transform: scaleX(-1);
+
+}
+#imgFofo:hover{
+    filter: invert(100%);
+}
